@@ -12,4 +12,4 @@ test:
 
 
 run: test
-	python sample_script.py "${TXT}"
+	. env/bin/activate; python sample_script.py "${TXT}"
