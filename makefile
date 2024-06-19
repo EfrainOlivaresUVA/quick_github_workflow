@@ -8,7 +8,7 @@ update: env
 	. env/bin/activate; pip install -r requirements.txt
 
 test:
-	pytest -vvx sample_script.py 
+	. env/bin/activate; pytest -vvx sample_script.py 
 
 
 run: test
